@@ -1,6 +1,6 @@
 const bcrypt = require("bcryptjs");
 const gravatar = require("gravatar");
-const { v4 } = required("uuid");
+const { v4 } = require("uuid");
 const { User } = require("../../models/user");
 const { RequestError, sendEmail } = require("../../utils");
 
